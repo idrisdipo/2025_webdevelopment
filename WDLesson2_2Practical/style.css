@@ -11,7 +11,7 @@ div{
 
 /* Challenge 5: Change the family of all elements to Arial */
 H1{
-  Font-family:arial;
+ font-family: 'Courier New', Courier, monospace;
 }
 
 /* Challenge 6: Change the background color to blue, the color of the text to white for all elements 

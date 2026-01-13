@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- WD Lesson 3.3: 
+     How do we interact with an element on a web page?  -->
+
+<!-- Resources 
+    https://www.w3schools.com/js/js_htmldom_methods.asp 
+    https://www.w3schools.com/jsref/met_document_getelementbyid.asp
+
+     YouTube Video Lesson
+     https://youtu.be/t2R9hOkM_ZU 
+-->
+<html>
+  <head>
+    <title>WD Lesson 3.3</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+
+    <!-- Challenge 4: Add a heading to the <div> below titling the images you have added -->
+    <div class="container banner"><h1> Japanese landmarks </h1>
+      
+    </div>
+    
+    <!-- Challenge 1: Add five images each within it's own div like <div><img src="" ></div> to div with a class of gallery below  -->
+    <div class="container gallery">
+      <div><img src="https://www.nicolelabarge.com/japanese-landmarks-in-japan/senso-ji-temple-tokyo/"></a></div>
+      <div><img src="https://s3-ap-southeast-1.amazonaws.com/cntatr-assets-ap-southeast-1-250226768838-55a62c9399d4d8a6/2023/02/shutterstock_1029873808.jpg?tr=q-70,c-at_max,w-1000,h-600" alt="japan"></a></div>
+      <div><img src="https://www.holidaysforcouples.travel/wp-content/uploads/2023/12/Itsukushima-Shrine-Japan-1.jpg"></a></div>
+      <div><img src="https://www.celebritycruises.com/blog/content/uploads/2022/01/japan-landmarks-itsukushima-shrine-hiroshima-1024x683.jpg"></a></div>
+      <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiM17kt2bH-hdNeJ0r3vdV3yqFwtT9NW1-TA&s"></a></div>
+    </div>
+    <!-- Challenge 3: For each image in the class gallery above, add onmouseover event that calls the 
+         corresponding function you create in script.js as part of Challenge 2.
+    -->
+    <div class="container alternate landmark">
+      <div id="highlight"></div>
+    </div>
+    <div id="footer" class="container">
+      NYC &copy; 2026 
+    </div>
+
+  </body>
+</html>

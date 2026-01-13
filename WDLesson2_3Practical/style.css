@@ -9,6 +9,8 @@ img{
         width: 40%;
         height:50%;
     }
+
+    
     
 
 
@@ -20,7 +22,7 @@ img{
 #bannerSeparator{
     height: 10px;
     border-radius: 0px;
-    background-image: linear-gradient(to right, blue,white);
+    background-image: linear-gradient(to right, blue,#8889ff);
 }
 
 /* Challenge 7: For the HTML element with an id of "logo_container" align the text in the center */
@@ -48,7 +50,7 @@ div{
     font-size: 24pt;
     font-family: arial;
     background-color:darkred;
-    color: whitesmoke;
+    color: whitesmoke
     
 }
 
